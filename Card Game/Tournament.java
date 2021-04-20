@@ -31,20 +31,8 @@ public class Tournament {
 
 
     private static final Contestant[] contestants = {
-	//new Contestant(RandyP.getPlayer(), "RandyP"),
-	new Contestant(DonaldS.getPlayer(), "DonaldS"),
-	new Contestant(Perfect.getPlayer(), "Perfect"),
-	//new Contestant(DonaldS3.getPlayer(), "DonaldS3"),
-	//new Contestant(LoserP.getPlayer(), "LoserP"),
-	// new Contestant(EitaaA.getPlayer(), "Eitaa"),
-	// new Contestant(DavidB.getPlayer(), "David"),
-	// new Contestant(JustinC.getPlayer(), "Justin"),
-	// new Contestant(ShanmukhaM.getPlayer(), "Shanmukha"),
-	// new Contestant(NidaM.getPlayer(), "Nida"),
-	// new Contestant(RachithaP.getPlayer(), "Rachitha"),
-	// new Contestant(NikolasS.getPlayer(), "Nikolas"),
-	// new Contestant(YufeiS.getPlayer(), "Yufei"),
-	// new Contestant(TrevorW.getPlayer(), "Trevor")
+	new Contestant(RandyP.getPlayer(), "RandyP"),
+	new Contestant(RachithaP.getPlayer(), "Rachitha"),
     };
 
     public static class PlayerCallable implements Callable<Card> {
